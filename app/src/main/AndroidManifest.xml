@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.sunset.mvp_retrofit_master">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission
+        android:name="android.permission.WRITE_SECURE_SETTINGS"
+        tools:ignore="ProtectedPermissions" />
+
+    <application
+        android:name=".config.MVPApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!-- 新闻页面 -->
+        <activity
+            android:name=".view.ui.WelcomeActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- 新闻列表 -->
+        <activity
+            android:name=".view.ui.NewsActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize|layoutDirection"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+
+        <!-- 故事列表 -->
+        <activity
+            android:name=".view.ui.StoryActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize|layoutDirection"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+
+        <!-- 故事详情信息 -->
+        <activity
+            android:name=".view.ui.StoryDetailActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize|layoutDirection"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+
+        <!-- web页面 -->
+        <activity
+            android:name=".view.ui.WebActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize|layoutDirection"
+            android:label=""
+            android:screenOrientation="portrait" />
+
+        <!-- 图片列表 -->
+
+        <!-- 图片列表 -->
+        <activity
+            android:name=".view.ui.GankActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize|layoutDirection"
+            android:label=""
+            android:screenOrientation="portrait" />
+
+        <!-- 图片列表 -->
+        <activity
+            android:name=".view.ui.SlideGankMeiziActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize|layoutDirection"
+            android:label=""
+            android:screenOrientation="portrait" />
+
+        <!-- 电影列表 -->
+        <activity
+            android:name=".view.ui.VideoActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize|layoutDirection"
+            android:label=""
+            android:screenOrientation="portrait" />
+
+        <!-- 查看图片 -->
+        <activity
+            android:name=".view.ui.PictureActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize|layoutDirection"
+            android:label=""
+            android:screenOrientation="portrait" />
+
+        <!-- 妹子详情信息 -->
+        <activity
+            android:name=".view.ui.GankDetailActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize|layoutDirection"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+
+        <!-- 视频播放 -->
+        <activity
+            android:name=".view.ui.VideoDetailActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize|layoutDirection"
+            android:label=""
+            android:screenOrientation="portrait" />
+
+        <!-- 图片加载器配置 -->
+        <meta-data
+            android:name="com.sunset.mvp_retrofit_master.util.GlideConfiguration"
+            android:value="GlideModule" />
+    </application>
+</manifest>

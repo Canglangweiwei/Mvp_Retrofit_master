@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="app_name">福利社</string>
+    <string name="more">更多</string>
+    <string name="love">喜欢</string>
+    <string name="news">新闻</string>
+    <string name="top">头条</string>
+    <string name="gif">动图</string>
+    <string name="meizi">干货</string>
+    <string name="film">电影</string>
+    <string name="video">视频</string>
+    <string name="share">分享</string>
+    <string name="story">故事</string>
+
+</resources>
