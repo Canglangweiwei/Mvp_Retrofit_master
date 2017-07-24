@@ -44,8 +44,6 @@
 
 >其实你已经很了不起了。
 
-![aboutme](https://raw.githubusercontent.com/Canglangweiwei/GankWithZhihu/master/screenshots/aboutme.png)
-
 * [业余时间写了一个仿QQ空间的demo](https://github.com/Canglangweiwei/ImageDemo)
 * 欢迎 Star 和 Fork
 
