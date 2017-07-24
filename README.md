@@ -1,5 +1,5 @@
 
-# 实践！业余时间做的一款阅读类App （MVP + RxJava + Retrofit）
+# 实践！业余时间做的一款阅读类App （MVP + RxJava + Retrofit）仿知乎，知乎详情信息如下：
 
 [APK下载地址](https://fir.im/bew6) 或 [Releases](https://github.com/Werb/GankWithZhihu/releases)
 
@@ -80,7 +80,5 @@
 
 
 ### Contact Me
-* Email: 1025004680@qq.com
-* Blog : [Werb's blog](http://werb.github.io/)
-* Weibo: [UMR80](http://weibo.com/singerwannber )
-* GitHub: [Werb](https://github.com/Werb)
+* Email: 1579538146@qq.com
+* GitHub: [Weiwei](https://github.com/Canglangweiwei)
